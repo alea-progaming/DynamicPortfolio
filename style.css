@@ -1,0 +1,138 @@
+html {
+    font-family: Arial;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 20em;
+}
+h1 {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    margin-bottom: 3em;
+}
+
+h4 {
+    padding-top: 0;
+    padding-top: 1em;
+    margin-bottom: 10;
+    font-size: 18px;
+}
+
+h5 {
+    margin-top: 4em;
+}
+
+.workThumbnail {
+    margin: 16px;
+}
+
+
+
+#home {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+#about, #myWorks {
+    background-color: #f8f8f8;
+}
+
+#about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 25px;
+}
+
+#skills .container, #myWorks .container, #contact .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    padding-top: 25px;
+}
+
+.page-header {
+    background-color: #aeccff;
+    width: 120px;
+    border: none;
+    border-radius: 13px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 50px;
+}
+
+.page-header {
+    background-color: #aeccff;
+    width: 120px;
+    border: none;
+    border-radius: 13px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 50px;
+}
+
+
+.text-center .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillsThumbnail {
+    border: none;
+    margin: 2rem;
+}
+
+.thumbnail .col-xs-2{
+    margin: 100px;
+}
+
+.skillsImg {
+    width: 8em;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.thumbnail-work {
+    width: 500px;
+}
+
+.fas {
+    margin-right: 4rem;
+}
+
+.fab {
+    margin-right: 1rem;
+}
+
+.fs-4 {
+    font-size: 5rem;
+    font-weight: semibold;
+}
+
+.mb-3 {
+    width: 60%;
+    padding-bottom: 5rem;
+    margin: auto;
+    align-self: center;
+}
+
+.col-md-6 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
